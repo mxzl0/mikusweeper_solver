@@ -81,14 +81,6 @@ class Robot():
                             tiles[explorable_tile] = tile.type.value
                         else:
                             tiles[explorable_tile] += tile.type.value
-            # tiles.add(self._get_tile(tile.y + 1, tile.x))
-            # tiles.add(self._get_tile(tile.y - 1, tile.x))
-            # tiles.add(self._get_tile(tile.y + 1, tile.x + 1))
-            # tiles.add(self._get_tile(tile.y - 1, tile.x - 1))
-            # tiles.add(self._get_tile(tile.y - 1, tile.x + 1))
-            # tiles.add(self._get_tile(tile.y + 1, tile.x - 1))
-            # tiles.add(self._get_tile(tile.y, tile.x + 1))
-            # tiles.add(self._get_tile(tile.y, tile.x - 1))
         return tiles
 
 

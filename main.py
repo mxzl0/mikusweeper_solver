@@ -8,7 +8,7 @@ def main():
    print("Beginning game")
    print('==Using Robot==')
    robot.describe()
-   robot.startGame()
+   robot.start_game()
    time.sleep(1)
    robot.start_moving()
 
