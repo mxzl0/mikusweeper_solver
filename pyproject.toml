@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mikusweeper-solver"
+version = "0.1.0"
+description = "\"Solution to solve http://mikusweeper.chals.sekai.team/ from ctf.sekai.team\""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "mikusweeper_solver"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.11.2"
+minesweeper-solver = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
